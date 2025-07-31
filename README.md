@@ -14,8 +14,8 @@ This project uses an Ubuntu VM to execute a series of Snort 3 rulesets, creating
 - [Blocking Malicious IPs](#malicious-ip-address-blocked-using-iptables)
 
 ## Requirements
-Ubuntu VM
-Kali Linux VM (optional, used as attacking machine)
+- Ubuntu VM
+- Kali Linux VM (optional, used as attacking machine)
 
 ## Snort 3 Installation
 1.	Update system packages
