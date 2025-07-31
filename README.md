@@ -147,9 +147,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <input type="submit" value="Login">
 </form>
 ```
-![alt text](image-3.png)
+![alt text](/images/image-3.png)
 
-![alt text](image-4.png)
+![alt text](/images/image-4.png)
 
 ## SQL injection attack rulesets
 1.	Create a directory for ruleset
@@ -210,7 +210,7 @@ alert tcp any any -> $HOME_NET 80 (msg:"SQL Injection - OR 1=1"; content:"OR 1=1
 alert tcp any any -> $HOME_NET 80 (msg:"SQL Injection - Comment Characters"; content:"--"; sid:1000005; rev:1;)
 alert tcp any any -> $HOME_NET 80 (msg:"SQL Injection - Quote Characters"; pcre:"/(\%27)|(\')|(\-\-)|(\%23)|(#)/i"; sid:1000006; rev:1;)
 ```
-![alt text](image-2.png)
+![alt text](/images/image-2.png)
 
 ## Kali Linux commands to initiate SQLi attack
 ```
@@ -219,9 +219,9 @@ curl -X POST -d "username=admin' -- &password=anything" http://192.168.27.136/lo
 
 ## Snort 3 acting as Intrusion Detection System (IDS)
 
-![alt text](image-1.png)
+![alt text](/images/image-1.png)
 
-![alt text](image.png)
+![alt text](/images/image.png)
 
 ## Malicious IP address blocked using iptables
 ```
